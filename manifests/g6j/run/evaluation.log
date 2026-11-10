@@ -1,0 +1,48 @@
+start 2026-11-10T06:23:08Z
+cnn 25 tracts
+cnn 50 tracts
+cnn 75 tracts
+cnn 100 tracts
+cnn 125 tracts
+cnn 150 tracts
+cnn 175 tracts
+cnn 200 tracts
+cnn 225 tracts
+cnn 250 tracts
+cnn COMPLETE
+segformer 25 tracts
+segformer 50 tracts
+segformer 75 tracts
+segformer 100 tracts
+segformer 125 tracts
+segformer 150 tracts
+segformer 175 tracts
+segformer 200 tracts
+segformer 225 tracts
+segformer 250 tracts
+segformer COMPLETE
+Overriding model.yaml nc=19 with nc=8
+[W NNPACK.cpp:64] Could not initialize NNPACK! Reason: Unsupported hardware.
+yolo 25 tracts
+yolo 50 tracts
+yolo 75 tracts
+yolo 100 tracts
+yolo 125 tracts
+yolo 150 tracts
+yolo 175 tracts
+yolo 200 tracts
+yolo 225 tracts
+yolo 250 tracts
+yolo COMPLETE
+ijepa 25 tracts
+ijepa 50 tracts
+ijepa 75 tracts
+ijepa 100 tracts
+ijepa 125 tracts
+ijepa 150 tracts
+ijepa 175 tracts
+ijepa 200 tracts
+ijepa 225 tracts
+ijepa 250 tracts
+ijepa COMPLETE
+completed 2026-11-10T06:37:54Z

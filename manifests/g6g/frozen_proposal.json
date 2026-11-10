@@ -1,0 +1,15 @@
+{
+  "version": "G6G-NYC-proposal-1",
+  "decision": "A for eligible 267 only",
+  "design": "reserve8",
+  "roster_sha256": "d480029349025da34db421f384745ce9f7303e88633c01ae71c214b24c71fc5e",
+  "standardization_weights_sha256": "4df3b5aa6e76cb7e3215d5133930a4abbb7d37e8fefde690ea2c4a9ab5254266",
+  "seed": 62029,
+  "simulation_seed": 62030,
+  "authorized_training": false,
+  "old_seal_count": 74,
+  "fit": 163,
+  "dev": 53,
+  "test": 267,
+  "mean_balanced_evaluation": 221
+}

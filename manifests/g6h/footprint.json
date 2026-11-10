@@ -1,0 +1,9 @@
+{
+  "planned_source_min_ft": {
+    "train_dev": 3317.5105484873216,
+    "train_test": 3415.0171299837375,
+    "dev_test": 4062.1862848770534
+  },
+  "shared_keys": 0,
+  "coverage_verified": false
+}

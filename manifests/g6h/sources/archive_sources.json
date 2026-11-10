@@ -1,0 +1,27 @@
+{
+  "bronx": {
+    "url": "https://s3.amazonaws.com/sa-static-customer-assets-us-east-1-fedramp-prod/data.cityofnewyork.us/Map_Downloads/2016_orthos/boro_bronx_sp16.zip",
+    "etag": "\"16da6683039424817596e4cf147bca27\"",
+    "bytes": 3013120559
+  },
+  "manhattan": {
+    "url": "https://s3.amazonaws.com/sa-static-customer-assets-us-east-1-fedramp-prod/data.cityofnewyork.us/Map_Downloads/2016_orthos/boro_manhattan_sp16.zip",
+    "etag": "\"1885937d6bd4dd7244ebc6d3a7e9a91d\"",
+    "bytes": 2584200187
+  },
+  "brooklyn": {
+    "url": "https://s3.amazonaws.com/sa-static-customer-assets-us-east-1-fedramp-prod/data.cityofnewyork.us/Map_Downloads/2016_orthos/boro_brooklyn_sp16.zip",
+    "etag": "\"ccc14f810d9fdf8b1c92ad97a7af2371\"",
+    "bytes": 4534634126
+  },
+  "queens": {
+    "url": "https://s3.amazonaws.com/sa-static-customer-assets-us-east-1-fedramp-prod/data.cityofnewyork.us/Map_Downloads/2016_orthos/boro_queens_sp16.zip",
+    "etag": "\"82a34536c26c63369c8ea2b9dd5082c1-2\"",
+    "bytes": 6679250193
+  },
+  "staten_island": {
+    "url": "https://s3.amazonaws.com/sa-static-customer-assets-us-east-1-fedramp-prod/data.cityofnewyork.us/Map_Downloads/2016_orthos/boro_staten_island_sp16.zip",
+    "etag": "\"0fdd8083c0ced7651b34a1f051e0109b\"",
+    "bytes": 4684378352
+  }
+}

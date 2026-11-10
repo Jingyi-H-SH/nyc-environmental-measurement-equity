@@ -1,0 +1,21 @@
+{
+  "design": "reserve8",
+  "decision": "CONDITIONAL",
+  "n_frozen": 483,
+  "n_qualified": 481,
+  "evaluation_frozen": 267,
+  "evaluation_qualified": 265,
+  "raw_jp2_count": 671,
+  "frozen_weights_preserved": true,
+  "qualified_weights_identical_by_scope": {
+    "all": false,
+    "balanced_hull": true
+  },
+  "coverage_threshold": 0.95,
+  "assignment_changes": 0,
+  "new_training": false,
+  "model_outcomes_read": false,
+  "estimates": "planning only",
+  "coverage_manifest": "coverage.csv",
+  "precision_manifest": "qualified_precision.csv"
+}

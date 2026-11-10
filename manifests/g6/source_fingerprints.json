@@ -1,0 +1,58 @@
+{
+  "archive": "Land_Cover.zip",
+  "bytes": 1334211225,
+  "sha256_local_and_remote": "c8f9e9a8b7172ce850ae80d9f74859e94eca4565a215bf05c7daba87035aac1b",
+  "members": [
+    {
+      "name": "Land_Cover/NYC_2017_LiDAR_LandCover.ige",
+      "bytes": 97743545509,
+      "crc32": "b2a2a32f"
+    },
+    {
+      "name": "Land_Cover/NYC_2017_LiDAR_LandCover.img",
+      "bytes": 9600,
+      "crc32": "91715e96"
+    },
+    {
+      "name": "Land_Cover/NYC_2017_LiDAR_LandCover.img.aux.xml",
+      "bytes": 1058,
+      "crc32": "2e59a4a7"
+    },
+    {
+      "name": "Land_Cover/NYC_2017_LiDAR_LandCover.img.vat.cpg",
+      "bytes": 5,
+      "crc32": "0e813c50"
+    },
+    {
+      "name": "Land_Cover/NYC_2017_LiDAR_LandCover.img.vat.dbf",
+      "bytes": 2402,
+      "crc32": "e5894b40"
+    },
+    {
+      "name": "Land_Cover/NYC_2017_LiDAR_LandCover.img.xml",
+      "bytes": 602148,
+      "crc32": "74cda0eb"
+    },
+    {
+      "name": "Land_Cover/NYC_2017_LiDAR_LandCover.rde",
+      "bytes": 30658251633,
+      "crc32": "bce183e2"
+    },
+    {
+      "name": "Land_Cover/NYC_2017_LiDAR_LandCover.rrd",
+      "bytes": 1953905260,
+      "crc32": "9d4c6b04"
+    }
+  ],
+  "census_inputs_sha256": {
+    "20195ny0001000.zip": "c0248fed0baf042af662880dea746e93c2104f77e03e1a65afe3dea58d5ab5d9",
+    "20195ny0004000.zip": "f3e47ad43d91513bbcd057e8d4eea234ac331ba3e4dd2619ea37e1f75f1e7c19",
+    "20195ny0047000.zip": "72da45ce80da78235ffe08abe5c3f3d77cce4d8dbcc4984b39860359f92e6305",
+    "20195ny0058000.zip": "90dfb1292043c4f2d45f662e87fa28c1d68573f719fdaa2f53fe1b1db4702926",
+    "20195ny0114000.zip": "f8172a8f1baf59b6c80926562ffc56861df91306ee72196931442085b5988cc5",
+    "acs19.csv": "cd877ec7ba9ba70da086a500211592397bb7173292ac397b0cda2409649f2b7a",
+    "g20195ny.csv": "0f088449f1c09618751bcbd644f66ae0bacd50d7cd94b7b0281ed94cf492e7fc",
+    "lookup": "19687946ed8c7bf8405d613b746de8c9da2ff1909a3b8a730a19d241d1b3ff2b",
+    "tl_2017_36_tract.zip": "aee09b4e886f04e6cb49f4099c12ee02fef021633525fbeaf188515ddbdf9359"
+  }
+}

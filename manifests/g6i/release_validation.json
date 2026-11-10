@@ -1,0 +1,27 @@
+{
+  "cnn": {
+    "status": "VERIFIED",
+    "receipt_sha256": "b995a6b94ee04a819fabbe9d36da989441032551b227c035d7f985ce09ef5305",
+    "file_manifest_sha256": "5d48f8b1435c9ab81f37fc71d96570615895aa8b55ae0e50acc1c6cb0891b3e9"
+  },
+  "segformer": {
+    "status": "VERIFIED",
+    "receipt_sha256": "5a9975ac6f8ee014a9352bbbd0275483d47f5d227256da0faf35b804c650692e",
+    "file_manifest_sha256": "4e95c163283e62a53c60162b7ae74a0e18335e816d1adafa2d77387d2b41ca96"
+  },
+  "yolo": {
+    "status": "VERIFIED",
+    "receipt_sha256": "cb00b78070d376b43796e91598a057f4e8ca87afc6cf3efc7571d2616c7ca0da",
+    "file_manifest_sha256": "e40b32499cc4fed938a7ca942b454685c332a0f64848e8d2ff18e0dedbb2e977"
+  },
+  "ijepa": {
+    "status": "VERIFIED",
+    "receipt_sha256": "f47d242939b9cfc1e415c5ef2a830221ea8f35411d7e7a02ba24e1b6cae2bf64",
+    "file_manifest_sha256": "027ea560afd176a5d9ac6069b6ea4e921c41c72a76ff9584ad36c432d904d49c"
+  },
+  "qwen": {
+    "status": "VERIFIED",
+    "receipt_sha256": "0cc13f4d4d8d7aca6d5c4a751d92ca206dc83105e624d44f4ece31bc934622b8",
+    "file_manifest_sha256": "0509f43954d7f62634a4c8b501d027854c7823a8cb571dab6e5ecf1499d243dc"
+  }
+}

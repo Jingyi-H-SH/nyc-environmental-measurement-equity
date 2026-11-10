@@ -1,0 +1,12 @@
+{
+  "windows": {
+    "not_complete_bare_json": 6307,
+    "wrong_structure": 5,
+    "valid": 2
+  },
+  "pixels": {
+    "not_complete_bare_json": 1368157676,
+    "wrong_structure": 2213,
+    "valid": 293282
+  }
+}

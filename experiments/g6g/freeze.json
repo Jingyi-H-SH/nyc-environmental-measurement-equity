@@ -1,0 +1,12 @@
+{
+  "version":"G6G-design-1", "allocation_seed":62029, "simulation_seed":62030,
+  "allocation_probabilities":{"test":0.45,"dev":0.15,"train":0.40},
+  "designs":[["core16",16000,0,"core"],["priority12",12000,6000,"priority"],["priority16",16000,8000,"priority"],["priority24",24000,12000,"priority"]],
+  "minimum_cross_split_ft":3200, "extra_window_and_tile_margin_ft":800,
+  "historical_standoff_ft":3200,
+  "halfwidth_pp":{"high_high_minus_low_low":3,"factorial":5},
+  "justification":"Investigator planning targets before any design run. Intervals should resolve half of a 6 pp extreme-cell gap or a 10 pp additive departure in area-share error. These are research tolerances, not validated community thresholds.",
+  "central_sd_pp":5,"central_icc":0.25,"central_neighbor_correlation":0.35,
+  "support_rule":"Require the central half-width targets in both unrestricted and shared two-dimensional reference morphology, at least two independent geographic blocks per cell after restriction, and positive training and development support in all four cells. Sensitivities are reported separately. Excluded geography has zero probability, so a claim for all NYC requires additional support.",
+  "weights":"Equal eligible tracts within cell. No population weighting. Primary endpoints are paired block-aware contrasts on vegetation and constructed-cover percentage-point errors; separate signed and absolute errors."
+}

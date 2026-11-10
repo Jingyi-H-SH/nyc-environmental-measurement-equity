@@ -1,0 +1,46 @@
+{
+  "stage": "G6-J",
+  "released": true,
+  "formal": [
+    "cnn",
+    "segformer",
+    "yolo"
+  ],
+  "exploratory": [
+    "ijepa"
+  ],
+  "families": {
+    "cnn": "e49591d552d286cd3dd2d1e22b2c3c770364d8936ffae37ec9b42a49ca87f27f",
+    "segformer": "42712032028d9d64568c7af6c07e190e22d2c42bdedcb312a0eee0bd468f4757",
+    "yolo": "4b071e0373b81736562790786eb291dcf2e421fc93a6b3516b2c09e11221dcf8",
+    "ijepa": "1bfee104390f65659dc4d29dbf7963dd570eb77e943be6365d8618ce127b7784"
+  },
+  "models_sha256": "7c9e8b335e2725feac390cd5c900fe6aa62ca6c6bc881242efc4f6b68941783a",
+  "coverage_sha256": "1975c5b58f31f6b424154fa1814ccb6bdf1ece75589c731cb32c53e3e68b2dfd",
+  "qwen": "incomplete valid share support on development; retained in G6-I only",
+  "dense_analysis": "One pass, paired valid area, all eight classes. No checkpoint selection or test refitting.",
+  "targets": "265 qualified, 221 common morphology, worst-case bounds for all 267",
+  "scope": "NYC reserve8 geography; mapped reference and tract-level ecological contrasts",
+  "hashes": {
+    "experiments/g6j/infer.py": "2c3ab296583b19daaa5cf4b5a762ecb0dec8d1fcc0e66f0ea63bd633960af6d3",
+    "experiments/g6j/prepare_inputs.py": "fbcfc7ed09e7e3b0f6171e4381b04c0453fb0d42348a4b6411b8104ba7e33752",
+    "experiments/g6j/analyze.py": "70dbfe3b56a7339821d279814f6afbe9957d4a9fcf351f69672c8611032a6f23",
+    "experiments/g6j/spatial.py": "4dcf4092cee82dcc92f7e462924cda5f82c678d814640425efc9a39c08f42c58",
+    "experiments/g6j/distribution.py": "2e29765fd0fb5091a367320ae133aebe6519e6b5bd4bffdb939397b8b3fb1181",
+    "experiments/g6j/secondary.py": "d81bd028eefab002d2c28adff0017eaea28ef0191be8ab3523f29407906aaf19",
+    "experiments/g6j/freeze.py": "4c27752502ef8351c686bbce00d1877c63fd5de1d85a9a5fe03880271f70fe93",
+    "reports/G6G_RQ2_RQ3_ESTIMAND_FREEZE.md": "bd43fc2a305809d6149ec0062e734cf79881545acbb730f3c9f7518121e81473",
+    "experiments/g6i/freeze.json": "6d02f62bc7050eca05c8ff1d9e1b05db1b17dab4f630af8d9c573cf1d7bba7c9",
+    "manifests/g6g/reserve8_roster.csv": "d480029349025da34db421f384745ce9f7303e88633c01ae71c214b24c71fc5e",
+    "manifests/g6h/qualified_weights.csv": "a579c59b598fa376b96897355e65b4173c1c8e4be002541c2807f8956a4ec5eb",
+    "manifests/g6h/index_links.csv": "9a91f8a3aed565ac9c14d4555ee57b2900b704d68204dcbb502723d79aca509a",
+    "manifests/g6j/secondary_design.json": "ac0acfbe48e5de495a6702c8a1f04e5f881ac39537b9325629248934daacec25",
+    "manifests/g6d/social_frame.json": "a98e06655a70c808ca96a894a903e172f2ad79392ebe8764e1ae00aa3661b416",
+    "manifests/g6d/intersection_support.json": "5f0b04062e9e21304fa8af46d639274186068f1d7e523fc129440e873b2763ff",
+    "reports/G6_MULTIDIMENSIONAL_RQ3_DESIGN.md": "f4a9cc669a689fd0086d4934dd27aff1a4c75b58c8f3f06186e8915167117613",
+    "manifests/g6i/release_validation.json": "f7c73c2b5f8357f1d8f4c576f56aacd3f0878e9a832280ff53726e269965e83c",
+    "manifests/g6i/sha256.json": "4c4b10e82536d4b8a81a2d1e30bee56996519f5767111d32c2fdf9bc4af60cae",
+    "manifests/g6h/footprint.json": "3894dde836e4a60d3023dc7866c9c19a16842f78a69aad917c9bebb9221a6690"
+  },
+  "released_utc": "2026-11-10T06:21:01.279923+00:00"
+}

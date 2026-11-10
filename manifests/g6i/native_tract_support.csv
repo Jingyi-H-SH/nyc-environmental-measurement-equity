@@ -1,0 +1,9 @@
+outcome,tracts,positive_tracts,median_share_pp
+bare_soil,53,11,0.0
+building,53,53,39.69726665935502
+grass_shrub,53,53,1.6816355576919195
+other_impervious,53,53,20.43326775593064
+rail,53,6,0.0
+road,53,53,19.292866862103303
+tree,53,53,13.91217991934149
+water,53,7,0.0

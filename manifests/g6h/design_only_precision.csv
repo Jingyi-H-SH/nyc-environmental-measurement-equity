@@ -1,0 +1,9 @@
+scope,contrast,scenario,sd_pp,icc,halfwidth_pp,limit_pp,break_even_sd_pp
+all,extreme,G6G central,5,0.25,2.647473876055341,3,5.665778286110821
+all,extreme,G6H stress assumption,6,0.35,3.4051125174729133,3,5.286168932050035
+all,factorial,G6G central,5,0.25,3.8164352099031085,5,6.550615594135738
+all,factorial,G6H stress assumption,6,0.35,4.91292171856592,5,6.106346023513883
+balanced_hull,extreme,G6G central,5,0.25,2.9976608816069312,3,5.003901572735297
+balanced_hull,extreme,G6H stress assumption,6,0.35,3.8085751544779214,3,4.726176921790962
+balanced_hull,factorial,G6G central,5,0.25,4.236384432283636,5,5.901258584911681
+balanced_hull,factorial,G6H stress assumption,6,0.35,5.294864047140064,5,5.6658678547571055

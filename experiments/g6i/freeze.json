@@ -1,0 +1,20 @@
+{
+  "design": "reserve8",
+  "seed": 62029,
+  "selection": "retain all technically valid families and their prespecified final pass; never select using development disparities",
+  "source": "2016 NYC RGB first three channels, bilinear resampling to 2017 native reference grid; 512 x 512 at 0.5 ft, gray 127 outside common paired geography",
+  "train": "positive paired area; first up to 32 per tract by frozen hash",
+  "dev": "census of valid paired geography; publish zero-area and failed windows",
+  "final_model_access": false,
+  "training": {"passes":8,"batch":8,"optimizer":"AdamW","weight_decay":0.01,"head_lr":0.0003,"adapted_encoder_lr":0.00003,"loss":"cross entropy, positive paired pixels only","precision":"bfloat16 autocast, float32 parameters"},
+  "native_classes": ["tree canopy","grass/shrub","bare soil","water","buildings","roads","other impervious","railroad"],
+  "cnn": "ResNet34 ImageNet IMAGENET1K_V1 and new U-Net decoder; train backbone and decoder",
+  "segformer": "external B0 ADE checkpoint and new eight-channel classifier; train backbone and decode head; no historical NYC optimizer or model",
+  "yolo": "YOLO26n-sem native eight-channel semantic head; train main logits; no auxiliary loss",
+  "ijepa": "frozen H/14 at 224 pixels, 16x16 token grid, supervised 1x1 decoder, resize logits to 512",
+  "dinov3": "gated SAT493M ViT-L/16; no substitute",
+  "qwen": "zero-shot BF16, mask gray 127, fixed JSON prompt in qwen.py, greedy, no threshold search",
+  "rq2_projection": "equal-tract observed dev SD, unbalanced one-way random effects block ICC truncated at zero; frozen physical-distance kernel, effective-block t multiplier; supplement inherited SD and ICC scenarios",
+  "inputs_for_model_selection": "training and development only",
+  "rq3": "frozen G6G_RQ2_RQ3_ESTIMAND_FREEZE.md"
+}

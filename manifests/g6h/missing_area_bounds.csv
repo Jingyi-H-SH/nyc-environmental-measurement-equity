@@ -1,0 +1,5 @@
+scope,contrast,worst_case_span_pp,interpretation
+all,extreme,0.3947093084004084,"uncertainty width from unconstrained predicted class on unpaired mapped pixels; fixed full reference, qualified tracts"
+all,factorial,0.7888809609470219,"uncertainty width from unconstrained predicted class on unpaired mapped pixels; fixed full reference, qualified tracts"
+balanced_hull,extreme,0.3420820697943596,"uncertainty width from unconstrained predicted class on unpaired mapped pixels; fixed full reference, qualified tracts"
+balanced_hull,factorial,0.6753295083577381,"uncertainty width from unconstrained predicted class on unpaired mapped pixels; fixed full reference, qualified tracts"

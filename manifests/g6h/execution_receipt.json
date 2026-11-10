@@ -1,0 +1,74 @@
+{
+  "versions": {
+    "numpy": "1.26.4",
+    "rasterio": "1.4.3",
+    "pyproj": "3.6.1",
+    "pyshp": "2.3.1",
+    "shapely": "2.0.6",
+    "requests": "2.31.0",
+    "Pillow": "10.3.0"
+  },
+  "python": "3.11.8 (main, Feb 26 2024, 21:39:34) [GCC 11.2.0]",
+  "gdal": "3.9.3",
+  "platform": "Linux-5.15.0-105-generic-x86_64-with-glibc2.35",
+  "archives": {
+    "bronx": {
+      "bytes": 3013120559,
+      "sha256": "154746a8d7bb5a8469979a90a777cec34ceeee1bebfb8b5753e6e7b843dcc85f"
+    },
+    "manhattan": {
+      "bytes": 2584200187,
+      "sha256": "1eb69110e02f9c7544335ce030a1f010a9089890731ff3c6a2675e31ad11af62"
+    },
+    "brooklyn": {
+      "bytes": 4534634126,
+      "sha256": "16c531b9b17209143c8514b97007dee1234439ebce30a5acf39b654b78215482"
+    },
+    "queens": {
+      "bytes": 6679250193,
+      "sha256": "316d903a782783b715206e64eb58cbec1f83c5a72a6264e06b8dac3683e6f3b6"
+    },
+    "staten_island": {
+      "bytes": 4684378352,
+      "sha256": "5ffdc7c5fbc46ca78194b5943a96d627b5d97218a586d7aea96caa9f489e50d8"
+    }
+  },
+  "mask_bytes": 2096960888,
+  "decode_worker_seconds": 3449.8528426870616,
+  "source_start_utc": 1794271844.9207737,
+  "first_range_utc": 1794271848.3077874,
+  "last_range_utc": 1794273398.9560633,
+  "last_tract_utc": 1794273555.4941092,
+  "windows": [
+    [
+      "dev",
+      6314,
+      53
+    ],
+    [
+      "test",
+      17479,
+      267
+    ],
+    [
+      "train",
+      12693,
+      163
+    ]
+  ],
+  "display_keys": [
+    [
+      "dev",
+      44294
+    ],
+    [
+      "test",
+      110876
+    ],
+    [
+      "train",
+      83188
+    ]
+  ],
+  "planned_sqlite_sha256": "2f89b66d0a393a9035257745feeea943ba8121ff75a63a57c95122022c3ce58a"
+}
